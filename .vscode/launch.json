@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test_melos",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_app",
+            "cwd": "apps/my_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_app (profile mode)",
+            "cwd": "apps/my_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "my_app (release mode)",
+            "cwd": "apps/my_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "test_melos",
+            "cwd": "packages/test_melos",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "test_melos (profile mode)",
+            "cwd": "packages/test_melos",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "test_melos (release mode)",
+            "cwd": "packages/test_melos",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+name: test_melos_workspace
+
+packages:
+  - apps/**
+  - packages/**
